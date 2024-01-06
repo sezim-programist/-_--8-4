@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+
+
+.navbar a {
+    cursor: pointer;
+}
+
+.link {
+    color: #222;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.linkImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.linkImg:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
